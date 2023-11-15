@@ -104,6 +104,8 @@ GEM
     irb (1.9.0)
       rdoc
       reline (>= 0.3.8)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -218,6 +220,7 @@ DEPENDENCIES
   bootsnap
   debug
   factory_bot_rails
+  jsonapi-serializer
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.2)
