@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="" />
+    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/articles_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/routing/articles_spec.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -20,6 +24,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="2Y7rhnjNJzHLmI1ieLA5Nq9MLur" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Article">
+  <component name="RunManager" selected="RSpec./articles routes">
     <configuration name="Article" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-api-project" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -219,8 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Article" />
         <item itemvalue="RSpec./articles routes" />
+        <item itemvalue="RSpec.Article" />
       </list>
     </recent_temporary>
   </component>
@@ -235,8 +246,16 @@
       <updated>1699887580754</updated>
       <workItem from="1699887581814" duration="4714000" />
       <workItem from="1699952444901" duration="1236000" />
-      <workItem from="1699964347863" duration="8089000" />
+      <workItem from="1699964347863" duration="9979000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1700051047393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700051047393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +272,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rails_api_project@_articles_routes.rcov" NAME="/articles routes Coverage Results" MODIFIED="1700050903015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
