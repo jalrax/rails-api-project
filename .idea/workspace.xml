@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="Added serializer gem">
-      <change afterPath="$PROJECT_DIR$/spec/support/api_helpers.rb" afterDir="false" />
+    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="Added more article tests">
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/paginable.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rails-api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-api-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/article_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/article_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/requests/articles_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/articles_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/routing/articles_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/routing/articles_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +334,8 @@
       <updated>1699887580754</updated>
       <workItem from="1699887581814" duration="4714000" />
       <workItem from="1699952444901" duration="1236000" />
-      <workItem from="1699964347863" duration="16339000" />
+      <workItem from="1699964347863" duration="24039000" />
+      <workItem from="1700143681569" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1700051047393</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700056965847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added more article tests">
+      <created>1700059748522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700059748522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,11 +388,13 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added articles show action" />
     <MESSAGE value="Added serializer gem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added serializer gem" />
+    <MESSAGE value="Added more article tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more article tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rails_api_project@ArticlesController.rcov" NAME="ArticlesController Coverage Results" MODIFIED="1700054079974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
     <SUITE FILE_PATH="coverage/rails_api_project@_articles_routes.rcov" NAME="/articles routes Coverage Results" MODIFIED="1700053169257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
     <SUITE FILE_PATH="coverage/rails_api_project@Article.rcov" NAME="Article Coverage Results" MODIFIED="1700050909340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
+    <SUITE FILE_PATH="coverage/rails_api_project@All_specs_in_spec__rails_api_project.rcov" NAME="All specs in spec: rails-api-project Coverage Results" MODIFIED="1700059680862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
   </component>
 </project>
