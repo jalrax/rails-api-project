@@ -27,6 +27,7 @@ gem "puma", ">= 5.0"
 gem "bootsnap", require: false
 gem 'jsonapi-serializer'
 gem 'jsom-pagination', '~> 1.0'
+gem 'jsonapi_errors_handler', '~> 0.6.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="Added more article tests">
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/paginable.rb" afterDir="false" />
+    <list default="true" id="d4b66b4d-35e7-4327-821d-2a4f9974ffc5" name="Default Changelist" comment="Added pagination">
       <change beforePath="$PROJECT_DIR$/.idea/rails-api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-api-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/paginable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/paginable.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/requests/articles_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/articles_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +336,12 @@
       <workItem from="1699887581814" duration="4714000" />
       <workItem from="1699952444901" duration="1236000" />
       <workItem from="1699964347863" duration="24039000" />
-      <workItem from="1700143681569" duration="3364000" />
+      <workItem from="1700143681569" duration="4809000" />
+      <workItem from="1700211134717" duration="1805000" />
+      <workItem from="1700222018163" duration="11542000" />
+      <workItem from="1700643873290" duration="1888000" />
+      <workItem from="1700652911749" duration="5687000" />
+      <workItem from="1700834864472" duration="37974000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1700051047393</created>
@@ -365,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700059748522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added pagination">
+      <created>1700147134706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700147134706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +402,8 @@
     <MESSAGE value="Added articles show action" />
     <MESSAGE value="Added serializer gem" />
     <MESSAGE value="Added more article tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more article tests" />
+    <MESSAGE value="Added pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pagination" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rails_api_project@ArticlesController.rcov" NAME="ArticlesController Coverage Results" MODIFIED="1700054079974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-api-project" />
